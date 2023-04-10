@@ -1,8 +1,17 @@
-# Deep Reinforcement Learning and Blockchain Mining for Mobile Edge Computing
+# Deep Reinforcement Learning for Mobile Edge Computing
 
 This is a repository containing Python code and a corresponding article on the topic of mobile edge computing (MEC) and its optimization using deep reinforcement learning (DRL) techniques. The article discusses the challenges of designing an efficient task-offloading strategy for the whole MEC system, and proposes the use of multi-agent DRL to support smart task offloading in a MEC network.
 
 Specifically, the project simplifies the MEC problem as video task processing and applies three different DRL methods based on Actor-Critic structure: Multi-Agent Advantage Actor-Critic (MAA2C), Multi-Agent Proximal Policy Optimization (MAPPO), and Multi-Agent Deep Deterministic Policy Gradient (MADDPG). The reward function for different environment parameters is compared, as well as the final results.
+
+## Authors
+
+- Xinyao Qiu
+- Yuqi Mai
+
+## Motivation
+
+Mobile edge computing (MEC) is a promising technology that can improve the computing experience of electronic devices by offloading computation-based tasks to MEC servers located near the cloud servers. However, designing an efficient task-offloading strategy for the whole MEC system is not easy. Recently, many edge task offloading schemes have been proposed, but most of them consider single-agent offloading scenarios using traditional convex optimization tools. Deep reinforcement learning (DRL) techniques, such as deep Q-learning (DQN), have emerged as a promising alternative by modeling offloading problems as Markov decision processes (MDP) using deep neural networks (DNN) for function approximation. However, these efforts only use a single agent to handle the entire offloading process and do not work well in a large-scale distributed MEC environment. An interesting alternative is to use a multi-agent DRL (MA-DRL) to support smart task offloading in a MEC network.
 
 ## Getting Started
 
