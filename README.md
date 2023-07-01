@@ -5,6 +5,7 @@ This is a repository containing Python code and a corresponding article on the t
 Specifically, the project simplifies the MEC problem as video task processing and applies three different DRL methods based on Actor-Critic structure: Multi-Agent Advantage Actor-Critic (MAA2C), Multi-Agent Proximal Policy Optimization (MAPPO), and Multi-Agent Deep Deterministic Policy Gradient (MADDPG). The reward function for different environment parameters is compared, as well as the final results.
 
 Article: https://github.com/XinyaoQiu/DRL-for-edge-computing/blob/master/DRL-for-edge-computing.pdf
+
 Presentation: https://github.com/XinyaoQiu/DRL-for-edge-computing/blob/master/DRL-presentation.pdf
 
 ## Authors
